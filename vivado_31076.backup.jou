@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Jan 10 10:32:07 2024
+# Process ID: 31076
+# Current directory: C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33516 C:\Users\micle\Desktop\SSC\ProiectALU\ProiectALU\ProiectALU.xpr
+# Log file: C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/vivado.log
+# Journal file: C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU\vivado.jou
+# Running On: LAPTOP-2S7D8UG8, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8366 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.runs/impl_1/ALU.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.runs/impl_1/ALU.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

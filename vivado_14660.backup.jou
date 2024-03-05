@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Jan  9 18:22:35 2024
+# Process ID: 14660
+# Current directory: C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25456 C:\Users\micle\Desktop\SSC\ProiectALU\ProiectALU\ProiectALU.xpr
+# Log file: C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/vivado.log
+# Journal file: C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU\vivado.jou
+# Running On: LAPTOP-2S7D8UG8, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8366 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/SaveAn.vhd C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/divider.vhd C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/ShiftLoadReg.vhd C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/ADD.vhd C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/UC_DIV.vhd}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/ShiftLoadReg.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/ShiftLoadReg.vhd
+add_files -norecurse C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/ShiftLeftLoadReg.vhd
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/RCA4b.vhd
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/micle/Desktop/SSC/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/elementar_adder.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
