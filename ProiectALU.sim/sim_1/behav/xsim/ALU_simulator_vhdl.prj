@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ProiectALU.srcs/sources_1/new/ADD.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/sumator.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/sumator_lant.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/sum.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/inmultitor.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/UC_DIV.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/ShiftLeftLoadReg.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/SaveAn.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/divider.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/displ7seg.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/ALU.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/RCA4b.vhd" \
+"../../../../ProiectALU.srcs/sources_1/new/elementar_adder.vhd" \
+"../../../../ProiectALU.srcs/sim_1/new/ALU_simulator.vhd" \
+
+# Do not sort compile order
+nosort

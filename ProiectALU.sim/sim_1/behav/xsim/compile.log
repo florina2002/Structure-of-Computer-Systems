@@ -1,0 +1,31 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/ADD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ADD'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/sumator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sumator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/sumator_lant.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sumator_lant'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/sum.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sum'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/inmultitor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'inmultitor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/UC_DIV.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UC_DIV'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/ShiftLeftLoadReg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ShiftLeftLoadReg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/SaveAn.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SaveAn'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/displ7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'displ7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/RCA4b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RCA4b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sources_1/new/elementar_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'elementar_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sim_1/new/ALU_simulator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_simulator'
+ERROR: [VRFC 10-1471] type error near a ; current type std_logic_vector; expected type std_logic [C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sim_1/new/ALU_simulator.vhd:46]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sim_1/new/ALU_simulator.vhd:37]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Florina/Desktop/FACULTATE/SCS/ProiectALU/ProiectALU/ProiectALU.srcs/sim_1/new/ALU_simulator.vhd' is ignored due to errors
